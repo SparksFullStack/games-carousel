@@ -1,14 +1,12 @@
 import React, { Component } from 'react';
 import './App.css';
-import { Card } from 'reactstrap';
+import GameCarousel from './Components/GameCarousel';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Card>
-          <p>test</p>
-        </Card>
+        <GameCarousel />
       </div>
     );
   }
